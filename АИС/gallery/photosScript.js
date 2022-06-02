@@ -13,7 +13,6 @@ let NewArea = () =>{
 let render = () => {
     if(counter <= 50) {
         let temp = NewArea();
-
         htmlGridItemPhoto = `
         <img src="img/${counter++}.jpg" alt="фото города" class="content__img grid-item">
         <img src="img/${counter++}.jpg" alt="фото города" class="content__img grid-item">
