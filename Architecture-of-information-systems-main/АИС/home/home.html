@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="img/icons.png">
+</head>
+<body>
+<div class="page">
+    <nav class="navbar">
+        <div class="header__nav">
+            <div class="header__nav-item"><a class="header__nav-item-link homepage__text" href="home.html">Главная</a></div>
+            <div class="header__nav-item"><a class="header__nav-item-link" href="../gallery/gallaery.html">Фото галерея</a></div>
+            <div class="header__nav-item"><a class="header__nav-item-link" href="../about/about.html">о проекте</a></div>
+        </div>
+    </nav>
+    <section class="menu">
+        <div class="menu-section__first">
+            <button  class="menu-item" data-labs="Лабораторная №1" data-path-pdf="src='../labs/лаба-1.pdf'">
+                    <img src="img/fails.png" width="90px" height="90px" class="menu-item__icon">
+                <div class="menu-item__text">
+                    <p class="menu-item__title">Лабораторная</p>
+                    <p class="menu-item__subtitle">№1</p>
+                </div>
+            </button>
+            <button   class="menu-item" data-labs="Лабораторная №2" data-path-pdf="src='../labs/лаба-2.pdf'">
+                <img src="img/fails.png" width="90px" height="90px" class="menu-item__icon">
+                <div class="menu-item__text">
+                    <p class="menu-item__title">Лабораторная</p>
+                    <p class="menu-item__subtitle">№2</p>
+                </div>
+            </button>
+            <button  class="menu-item" data-labs="Лабораторная №3" data-path-pdf="src='../labs/лаба-3.pdf'">
+                <img src="img/fails.png" width="90px" height="90px" class="menu-item__icon">
+                <div class="menu-item__text">
+                    <p class="menu-item__title">Лабораторная</p>
+                    <p class="menu-item__subtitle">№3</p>
+                </div>
+            </button >
+            <button  class="menu-item" data-labs="Лабораторная №4" data-path-pdf="src='../labs/лаба-4.pdf'">
+                <img src="img/fails.png" width="90px" height="90px" class="menu-item__icon">
+                <div class="menu-item__text">
+                    <p class="menu-item__title">Лабораторная</p>
+                    <p class="menu-item__subtitle">№4</p>
+                </div>
+            </button>
+       </div>
+        <div class="menu-section__second">
+            <button class="menu-item" data-labs="Лабораторная №5" data-path-pdf="src='../labs/лаба-5.pdf'">
+                <img src="img/fails.png" width="90px" height="90px" class="menu-item__icon">
+                <div class="menu-item__text">
+                    <p class="menu-item__title">Лабораторная</p>
+                    <p class="menu-item__subtitle">№5</p>
+                </div>
+            </button >
+            <button  class="menu-item" data-labs="Лабораторная №6" data-path-pdf="src='../labs/лаба-6.pdf'">
+                <img src="img/fails.png" width="90px" height="90px" class="menu-item__icon">
+                <div class="menu-item__text">
+                    <p class="menu-item__title">Лабораторная</p>
+                    <p class="menu-item__subtitle">№6</p>
+                </div>
+            </button>
+            <button  class="menu-item" data-labs="Лабораторная №7" data-path-pdf="src='../labs/лаба-7.pdf'">
+                <img src="img/fails.png" width="90px" height="90px" class="menu-item__icon">
+                <div class="menu-item__text">
+                    <p class="menu-item__title">Лабораторная</p>
+                    <p class="menu-item__subtitle">№7</p>
+                </div>
+            </button>
+        </div>
+    </section>
+    <div id="myModal" class="modal"></div>
+    </div>
+</div>
+<script src="menuData.js"></script>
+<script src="blocks/menu/menu.js"></script>
+</body>
+</html>
