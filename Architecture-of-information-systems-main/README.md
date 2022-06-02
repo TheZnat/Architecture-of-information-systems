@@ -1,1 +1,0 @@
-# Architecture-of-information-systems
