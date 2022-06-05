@@ -1,0 +1,10 @@
+/* base */
+@import url(../blocks/page/page.css);
+@import url(../../fonts/fonts.css);
+/* nav */
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/header__nav.css);
+/* info */
+@import url(../blocks/info/info.css);
+/* menu */
+@import url(../blocks/menu/menu.css);

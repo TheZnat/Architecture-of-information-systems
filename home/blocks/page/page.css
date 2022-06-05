@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+body{
+    background: url(../../img/homepage.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+

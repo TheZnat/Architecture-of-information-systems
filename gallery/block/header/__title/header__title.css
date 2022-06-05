@@ -1,0 +1,8 @@
+.header__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 49px;
+    text-decoration: underline 3px black;
+}

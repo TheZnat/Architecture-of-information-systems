@@ -1,0 +1,8 @@
+.content-grid{
+    margin: 44px 51px 44px 51px;
+    display: grid;
+    gap: 38px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(479px, auto));
+    grid-auto-flow: row;
+}
